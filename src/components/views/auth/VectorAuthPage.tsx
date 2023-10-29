@@ -52,15 +52,15 @@ export default class VectorAuthPage extends React.PureComponent {
             background: "initial",
         };
 
-        const blurStyle: React.CSSProperties = {
-            position: "absolute",
-            top: 0,
-            right: 0,
-            bottom: 0,
-            left: 0,
-            filter: "blur(40px)",
-            background: pageStyle.background,
-        };
+        // const blurStyle: React.CSSProperties = {
+        //     position: "absolute",
+        //     top: 0,
+        //     right: 0,
+        //     bottom: 0,
+        //     left: 0,
+        //     filter: "blur(40px)",
+        //     background: pageStyle.background,
+        // };
 
         const modalContentStyle: React.CSSProperties = {
             display: "flex",
