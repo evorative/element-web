@@ -29,3 +29,6 @@ electron/pub
 /build_config.yaml
 /book
 /index.html
+config.sample.json
+matrix-js-sdk/
+matrix-react-sdk/
