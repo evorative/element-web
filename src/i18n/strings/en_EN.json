@@ -31,10 +31,10 @@
         "summary": "Your browser can't run %(brand)s",
         "title": "Unsupported browser"
     },
-    "powered_by_matrix": "Powered by Matrix",
+    "powered_by_matrix": "Powered by Evorative",
     "powered_by_matrix_with_logo": "Decentralised, encrypted chat &amp; collaboration powered by $matrixLogo",
     "unknown_device": "Unknown device",
     "use_brand_on_mobile": "Use %(brand)s on mobile",
     "web_default_device_name": "%(appName)s: %(browserName)s on %(osName)s",
-    "welcome_to_element": "Welcome to Element"
+    "welcome_to_element": "Welcome to Evorative Chat"
 }

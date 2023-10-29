@@ -30,10 +30,10 @@
         "summary": "Peramban Anda tidak dapat menjalankan %(brand)s",
         "title": "Peramban tidak didukung"
     },
-    "powered_by_matrix": "Diberdayakan oleh Matrix",
+    "powered_by_matrix": "Diberdayakan oleh Evorative",
     "powered_by_matrix_with_logo": "Obrolan &amp; kolaborasi terdesentralisasi dan terenkripsi diberdayakan oleh $matrixLogo",
     "unknown_device": "Perangkat tidak diketahui",
     "use_brand_on_mobile": "Gunakan %(brand)s di ponsel",
     "web_default_device_name": "%(appName)s: %(browserName)s di %(osName)s",
-    "welcome_to_element": "Selamat datang di Element"
+    "welcome_to_element": "Selamat datang di Evorative Chat"
 }

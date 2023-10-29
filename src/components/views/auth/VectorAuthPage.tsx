@@ -72,7 +72,7 @@ export default class VectorAuthPage extends React.PureComponent {
         return (
             <div className="mx_AuthPage" style={pageStyle}>
                 <div className="mx_AuthPage_modal" style={modalStyle}>
-                    <div className="mx_AuthPage_modalBlur" style={blurStyle} />
+                    <div className="mx_AuthPage_modalBlur"/>
                     <div className="mx_AuthPage_modalContent" style={modalContentStyle}>
                         {this.props.children}
                     </div>
