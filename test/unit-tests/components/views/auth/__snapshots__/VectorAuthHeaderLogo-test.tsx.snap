@@ -7,7 +7,7 @@ exports[`<VectorAuthHeaderLogo /> should match snapshot 1`] = `
   >
     <img
       alt="Element"
-      src="themes/element/img/logos/element-logo.svg"
+      src="themes/element/img/logos/logo-evorative.png"
     />
   </aside>
 </DocumentFragment>

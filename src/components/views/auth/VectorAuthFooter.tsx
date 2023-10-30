@@ -39,7 +39,7 @@ const VectorAuthFooter = (): ReactElement => {
 
     return (
         <footer className="mx_AuthFooter" role="contentinfo">
-            {authFooterLinks}
+            {/* {authFooterLinks} */}
             <a href="https://matrix.org" target="_blank" rel="noreferrer noopener">
                 {_t("powered_by_matrix")}
             </a>

@@ -27,7 +27,8 @@ export default class VectorAuthPage extends React.PureComponent {
         if (VectorAuthPage.welcomeBackgroundUrl) return VectorAuthPage.welcomeBackgroundUrl;
 
         const brandingConfig = SdkConfig.getObject("branding");
-        VectorAuthPage.welcomeBackgroundUrl = "themes/element/img/backgrounds/lake.jpg";
+        // VectorAuthPage.welcomeBackgroundUrl = "https://cdn.discordapp.com/attachments/749864361454993489/868795378349252648/nVIqlzG.jpeg";
+        VectorAuthPage.welcomeBackgroundUrl = "https://cdn.discordapp.com/attachments/1116900390504497288/1168551512100835390/web_banner11.jpg?ex=65522d67&is=653fb867&hm=adca61d6352618943a4f47650d28ccde6dd570766185bcf211f74571781d4ab0&";
 
         const configuredUrl = brandingConfig?.get("welcome_background_url");
         if (configuredUrl) {
@@ -52,15 +53,15 @@ export default class VectorAuthPage extends React.PureComponent {
             background: "initial",
         };
 
-        const blurStyle: React.CSSProperties = {
-            position: "absolute",
-            top: 0,
-            right: 0,
-            bottom: 0,
-            left: 0,
-            filter: "blur(40px)",
-            background: pageStyle.background,
-        };
+        // const blurStyle: React.CSSProperties = {
+        //     position: "absolute",
+        //     top: 0,
+        //     right: 0,
+        //     bottom: 0,
+        //     left: 0,
+        //     filter: "blur(40px)",
+        //     background: pageStyle.background,
+        // };
 
         const modalContentStyle: React.CSSProperties = {
             display: "flex",
@@ -72,7 +73,7 @@ export default class VectorAuthPage extends React.PureComponent {
         return (
             <div className="mx_AuthPage" style={pageStyle}>
                 <div className="mx_AuthPage_modal" style={modalStyle}>
-                    <div className="mx_AuthPage_modalBlur" style={blurStyle} />
+                    <div className="mx_AuthPage_modalBlur" />
                     <div className="mx_AuthPage_modalContent" style={modalContentStyle}>
                         {this.props.children}
                     </div>

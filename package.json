@@ -124,6 +124,7 @@
         "chokidar": "^3.5.1",
         "concurrently": "^8.0.0",
         "cpx": "1.5.0",
+        "cronstrue": "^2.41.0",
         "css-loader": "^4",
         "dotenv": "^16.0.2",
         "eslint": "8.51.0",
@@ -166,7 +167,7 @@
         "postcss-preset-env": "^6.7.0",
         "postcss-scss": "^4.0.4",
         "postcss-simple-vars": "^5.0.2",
-        "prettier": "2.8.8",
+        "prettier": "^3.0.3",
         "proxy-agent": "^6.3.0",
         "raw-loader": "^4.0.2",
         "rimraf": "^5.0.0",
@@ -186,8 +187,7 @@
         "webpack-dev-server": "^4.15.1",
         "worker-loader": "^3.0.0",
         "worklet-loader": "^2.0.0",
-        "yaml": "^2.3.3",
-        "cronstrue": "^2.41.0"
+        "yaml": "^2.3.3"
     },
     "@casualbot/jest-sonar-reporter": {
         "outputDirectory": "coverage",

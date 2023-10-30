@@ -17,7 +17,7 @@ exports[`<ErrorView /> should match snapshot 1`] = `
           <img
             alt="Element"
             height="42"
-            src="themes/element/img/logos/element-logo.svg"
+            src="themes/element/img/logos/logo-evorative.png"
           />
         </span>
         <h1>
