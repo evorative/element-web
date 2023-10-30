@@ -34,5 +34,5 @@
     "unknown_device": "不明な端末",
     "use_brand_on_mobile": "携帯端末で%(brand)sを使用できます",
     "web_default_device_name": "%(appName)s： %(osName)sの%(browserName)s",
-    "welcome_to_element": "Elementにようこそ"
+    "welcome_to_element": "Evorative Chat にようこそ"
 }
